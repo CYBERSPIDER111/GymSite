@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <style>
+        body {
+            color: white;
+
+            margin: 0px;
+            padding: 0px;
+            background: url('https://wallpaperaccess.com/full/1087579.jpg');
+        }
+
+        .left {
+            position: absolute;
+            top: 20px;
+            left: 34px;
+
+            display: inline-block;
+        }
+
+        .mid {
+            display: block;
+            margin: 20px auto;
+            width: 30%;
+            border: 2px solid black;
+            box-shadow: 2px 2px black;
+
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+            /* border: 2px solid black; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        .navbar a:hover {
+            color: yellow
+        }
+
+        .op {
+            font-size: 17px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .oll {
+            font-size: 18px;
+            font-family:Baloo+Bhai+2:wght@700&display=swape;
+            text-align: center;
+        }
+
+        .btn {
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            display: inline-block;
+            padding: 5px;
+            margin: 15px;
+            border-radius: 10px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px black;
+        }
+
+        .formoo {
+            text-align: center;
+            padding: 8px;
+            border-radius: 10px;
+        }
+
+        .formoo input {
+            background-color: black;
+            color: white;
+
+            text-align: center;
+            display: block;
+            width: 32% margin: 3px;
+        }
+
+        .container button {
+            margin: 10px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img
+                src="https://c4.wallpaperflare.com/wallpaper/206/268/839/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg">
+            <div class="oll">Fitness Hub</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="op">Home</a></li>
+                <li><a href="" class="op">Facilities</a></li>
+                <li><a href="" class="op">Supplements</a></li>
+                <li><a href="" class="op">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call owner</button> <button class="btn">Email</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h2>Get yourself registered with #1 gym of agra</h2>
+        <form action="noaction.php" class="">
+            <div class="formoo"><input type="text" class="" placeholder="Enter your name"></div>
+            <div class="formoo"><input type="text" class="" placeholder="Age"></div>
+            <div class="formoo"><input type="text" class="" placeholder="Contact Number"></div>
+            <div class="formoo"><input type="text" class="" placeholder="Email"></div>
+
+            <button class="btn">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
